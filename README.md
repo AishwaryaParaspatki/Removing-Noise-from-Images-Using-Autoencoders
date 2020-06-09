@@ -22,7 +22,7 @@ Here, 3 of the notebooks use MINST dataset and two notebooks use the Noisy offic
 ### Notebooks:<br>
 1. Autoencoder image compression using MINST dataset:<br>
 This notebook creates 6 different autoencoders with hidden layer size varying from 1 to 32 hidden units and plots the outputs to compare the results.<br>
-![5Autoencoder_results](/images/5autoencoder.png)
+![5Autoencoder_results](/images/5autoencoders.png)
 <br>
 
 
