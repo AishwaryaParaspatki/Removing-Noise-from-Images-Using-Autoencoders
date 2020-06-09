@@ -33,18 +33,18 @@ This notebook consists of a single autoencoder with 1 hidden layer of 16 hidden 
 
 
 3. Convolutional autoencoder to denoise documents from Noisy Office dataset<br>
-This notebook consists of 3 Conv2D layers with relu activation for the first two and sigmoid for the last layer with adam optimizer.<br>
+This notebook consists of 3 Conv2D layers with relu activation for the first two layers (8 filters each) and sigmoid for the last layer (an output layer with 1 filter) with adam optimizer.<br>
 ![MINST_Autoencoder](/images/3.png)
 <br>
 
 
 4. Convolutional autoencoder to denoise MINST dataset<br>
-This notebook consists of 5 2DConv layers with relu activation except for the last one with sigmoid activation using adam optimizer.<br>
+This notebook consists of 5 2DConv layers (1st and 4th layer: 16 filters, 2nd and 3rd layer: 8 filters and an output layer with 1 filter) with relu activation except for the last one with sigmoid activation using adam optimizer.<br>
 ![Conv_MINST](/images/4.png)
 <br>
 
 
 5. Deep Convolutional autoencoder to denoise documents from Noisy office dataset<br>
-This notebook consists of 7 2Dconv layers with relu activation except for the last one with sigmoid activation using adam optimizer.<br>
+This notebook consists of 7 2Dconv layers (1st and 6th layer: 32 filters, 2nd and 5th layer: 16 filters, 3rd and 4th layer: 8 filters and 1 output layer with 1 filter) with relu activation except for the last one with sigmoid activation using adam optimizer.<br>
 ![DeepConv](/images/5.png)
 <br>
